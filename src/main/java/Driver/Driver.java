@@ -9,6 +9,7 @@ public class Driver {
 	public WebDriver setup(String browser) {
 		if(browser.equalsIgnoreCase("chrome")) {
 			driver=new ChromeDriver();
+			System.out.println("dxhuhdsu");
 			
 		}
 		else {
@@ -16,5 +17,6 @@ public class Driver {
 			driver=new EdgeDriver();
 		}
 		return driver;
+		
 	}
 }
